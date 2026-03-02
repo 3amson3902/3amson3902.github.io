@@ -1,4 +1,21 @@
 theme: jekyll-theme-minimal
 title: Samson's little corner of the web
-description: Accidentally nuked my previous blog but it stuck as a unique name for the blog.
+description: Accidentally nuked my previous site so this stuck as my main page.
 author: Samson Chow
+
+# Build settings
+markdown: kramdown
+permalink: /blog/:year/:month/:day/:title/
+
+# Navigation links (used in layouts/templates)
+header_pages:
+  - about.md
+  - projects.md
+  - blog.md
+  - contact.md
+
+# Social / contact links (fill in your own)
+github_username: 3amson3902
+# linkedin_username: your-linkedin
+# twitter_username: your-twitter
+# email: your-email@example.com
